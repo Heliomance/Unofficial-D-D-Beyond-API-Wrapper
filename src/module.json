@@ -14,10 +14,13 @@
   ],
   "scripts": [],
   "esmodules": [
-    "unofficial-ddb-api-wrapper.js"
+    "unofficial-ddb-api-wrapper.ts",
+    "module/loginHandler.ts",
+    "module/registerSettings.ts",
+    "module/preloadTemplates.ts"
   ],
   "styles": [
-    "unofficial-ddb-api-wrapper.css"
+    "unofficial-ddb-api-wrapper.scss"
   ],
   "packs": [],
   "languages": [],
