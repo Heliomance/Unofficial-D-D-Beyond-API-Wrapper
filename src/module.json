@@ -1,10 +1,10 @@
 {
   "name": "unofficial-ddb-api-wrapper",
-  "title": "unofficial-ddb-api-wrapper",
+  "title": "Unofficial D&D Beyond Api Wrapper",
   "description": "",
-  "systems": [],
+  "systems": ["dnd5e"],
   "version": "0.1.0",
-  "author": "",
+  "author": "Heliomance",
   "authors": [
     {
       "name": "",

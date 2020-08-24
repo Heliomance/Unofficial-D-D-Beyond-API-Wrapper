@@ -13,18 +13,21 @@
 // Import TypeScript modules
 import { registerSettings } from './module/settings.js';
 import { preloadTemplates } from './module/preloadTemplates.js';
+import {LoginHandler} from "./module/loginHandler";
+let test: LoginHandler;
 
 /* ------------------------------------ */
 /* Initialize module					*/
 /* ------------------------------------ */
 Hooks.once('init', async function() {
 	console.log('unofficial-ddb-api-wrapper | Initializing unofficial-ddb-api-wrapper');
+	test = new LoginHandler();
 
 	// Assign custom classes and constants here
-	
+
 	// Register custom module settings
 	registerSettings();
-	
+
 	// Preload Handlebars templates
 	await preloadTemplates();
 
