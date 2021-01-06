@@ -27,7 +27,7 @@
     "yargs": "^15.4.1"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "foundry-pc-types": "file:../../foundry-pc-types-master.tar.gz",
     "sass": "^1.26.10"
   }
